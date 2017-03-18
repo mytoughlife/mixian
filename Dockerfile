@@ -1,4 +1,4 @@
-FROM node:7.1.0
+FROM node
 # replace this with your application's default port
 EXPOSE 3000
 
