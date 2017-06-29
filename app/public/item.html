@@ -2,25 +2,25 @@
   <form role="form">
   <div class="form-group">
       <label for="nameText">Name</label>
-      <input class="form-control input-lg" id="nameText" ng-model="item.name" required>
+      <input class="form-control" id="nameText" ng-model="item.name" required>
     </div>
     <div class="form-group">
       <label for="nameAlias">Alias</label>
-      <input class="form-control input-lg" id="nameAlias" ng-model="item.alias">
+      <input class="form-control" id="nameAlias" ng-model="item.alias">
     </div>
     <div class="form-group">
       <label for="nameAddress">Address</label>
-      <input class="form-control input-lg" id="nameAddress" ng-model="item.address">
+      <input class="form-control" id="nameAddress" ng-model="item.address">
     </div>
     <div class="form-group">
       <label for="nameLink">Link</label>
-      <input class="form-control input-lg" id="nameLink" ng-model="item.link">
+      <input class="form-control" id="nameLink" ng-model="item.link">
     </div>
     <br />
     <div>
-      <button class="btn btn-primary input-lg " style="font-size:24px;" ng-click="save()">Save</button>
-      <button class="btn btn-primary input-lg" style="font-size:24px;" ng-click="cancel()">Cancel</button>
-      <button class="btn btn-primary pull-right input-lg" style="font-size:24px;" ng-hide="isNew" ng-click="delete()">Delete</button>
+      <button class="btn btn-primary" ng-click="save()">Save</button>
+      <button class="btn btn-primary" ng-click="cancel()">Cancel</button>
+      <button class="btn btn-primary pull-right" ng-hide="isNew" ng-click="delete()">Delete</button>
     </div>
     <br />
   </form>

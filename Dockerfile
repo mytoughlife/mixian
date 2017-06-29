@@ -4,5 +4,7 @@ EXPOSE 3000
 
 ADD app/ .
 
+CMD ["npm", "install"]
+
 CMD ["npm", "start"]
 

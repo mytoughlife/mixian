@@ -1,4 +1,5 @@
 <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<head>
 		<title>每周一碗线 人生别无他求</title>
 		<script src="https://code.angularjs.org/1.6.1/angular.js"></script>
@@ -14,21 +15,20 @@
 			$('[data-toggle="tooltip"]').tooltip(); 
 		});
 	</script>
-		<div id='main' class="container" style="font-size:30px;">
-			<nav class="navbar-fluid navbar-default navbar-fixed-top" style="font-size:48px;">
+		<div id='main' class="container">
+			<nav class="navbar-fluid navebar-default navbar-fixed-top">
 				<div class="container">
-					<div class="navbar-text" style="font-size:42px;">米线帮</div>
 					<div class="navbar-text"><a href="#!">Collection</a></div>
 					<div class="navbar-text"><a href="#!/people">People</a></div>
 				</div>
 			</nav>
-			</br>
+            <h3 class="text-center">米线帮</h3>
 			</br>
 			<div class="col-md-offset-2 col-md-8">
 				<div ng-view>
 				</div>
 			</div>
 		</div>
-		<div class="text-center" style="font-size:20px;"><p>Proudly powered by AWS DynamoDB and ECS.</p></div>
+		<div class="text-center small"><p>Proudly powered by AWS DynamoDB and ECS.</p></div>
 	</body>
 </html>

@@ -68,8 +68,8 @@ app.use(function(err, req, res, next) {
 var AWS = require('aws-sdk');
 
 var creds = new AWS.Credentials({
-    accessKeyId: 'AKIAJTN6KMXE722SBE4A',
-    secretAccessKey: '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'
+    accessKeyId: 'AKIAIJAMYHQ4XHDEEVMQ',
+    secretAccessKey: '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'
 });
 
 AWS.config.update({ credentials: creds });

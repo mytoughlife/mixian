@@ -1,13 +1,13 @@
 <div class="clearfix">
   <form ng-Submit="post()">
     <div>
-      <p class="glyphicon glyphicon-plus-sign" style="font-size:46px;cursor:hand;" data-toggle="tooltip" title="New" ng-click="newItem()"></p>
+      <p class="glyphicon glyphicon-plus-sign" style="font-size:3em;cursor:hand;" data-toggle="tooltip" title="New" ng-click="newItem()"></p>
     </div>
     </br>
     <div ng-repeat="i in items">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <span style="font-size:36px;" ng-click="editItem(i)">{{i.name}}</span>&nbsp;<span class="glyphicon glyphicon-edit" style="cursor:hand;" data-toggle="tooltip" title="Edit" ng-click="editItem(i)"></span>
+          <span ng-click="editItem(i)">{{i.name}}</span>&nbsp;<span class="glyphicon glyphicon-edit" style="cursor:hand;" data-toggle="tooltip" title="Edit" ng-click="editItem(i)"></span>
         </div>
         <div class="panel-body">
           <p>{{i.alias}}</p>   
